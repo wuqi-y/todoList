@@ -44,6 +44,7 @@ export default {
     // 添加待办
     add(item) {
       console.log('ojojojojo')
+      console.log('111')
       let id = this.todoList.length === 0 ? 100 : this.todoList[this.todoList.length - 1].id + 1
       this.todoList.push({
         id:id,

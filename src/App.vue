@@ -46,6 +46,7 @@ export default {
       console.log('ok')
       console.log('ok')
       console.log('ok')
+      console.log('ok')
       let id = this.todoList.length === 0 ? 100 : this.todoList[this.todoList.length - 1].id + 1
       this.todoList.push({
         id:id,
